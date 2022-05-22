@@ -1,0 +1,30 @@
+@import './_var.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  max-height: 100%;
+  // background: $accent-light;
+
+  .content {
+    max-width: 1366px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+
+
+  }
+}

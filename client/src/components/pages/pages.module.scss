@@ -1,0 +1,57 @@
+@import '../../var.scss';
+
+.wrapper {
+    width: 100%;
+    background: #fff;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    
+    padding: 0px 20px;
+
+    .pages {
+        height: 100%;
+        max-width: 1366px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        
+        .page {
+            flex-shrink: 0;
+            width: 30px;
+            height: 30px;
+            background: $accent;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 31px;
+            cursor: pointer;
+            
+        }
+
+        .page__current {
+            flex-shrink: 0;
+            width: 30px;
+            height: 30px;
+            background: #fff;
+            color: $accent;
+            border-radius: 50%;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 31px;
+            cursor: pointer;
+            
+        }
+    }
+}
